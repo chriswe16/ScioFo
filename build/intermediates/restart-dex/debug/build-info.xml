@@ -4,7 +4,7 @@
     api-level="23"
     density="xxhdpi"
     format="7"
-    timestamp="1471941124506106"
+    timestamp="1473778053580022"
     token="1031253649409642797" >
 
     <task
@@ -24,24 +24,12 @@
         location="E:\Scio\SDK_Android\myscioapplication\build\intermediates\res\resources-debug.ap_"
         type="RESOURCES" />
 
-    <build timestamp="1471546120012118" >
+    <build timestamp="1473426807432527" >
         <artifact
             location="E:\Scio\SDK_Android\myscioapplication\build\outputs\apk\myscioapplication-debug.apk"
             type="MAIN" />
     </build>
-    <build
-        timestamp="1471701967077418"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="E:\Scio\SDK_Android\myscioapplication\build\intermediates\builds\debug\1471701967077418\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build timestamp="1471880473560285" >
-        <artifact
-            location="E:\Scio\SDK_Android\myscioapplication\build\intermediates\transforms\dex\debug\folders\1000\5\slice_8\classes.dex"
-            type="DEX" />
-    </build>
-    <build timestamp="1471941124506106" >
+    <build timestamp="1473778053580022" >
         <artifact
             location="E:\Scio\SDK_Android\myscioapplication\build\intermediates\res\resources-debug.ap_"
             type="RESOURCES" />

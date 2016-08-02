@@ -150,8 +150,8 @@ public class ModelActivity extends Activity {
         }
         else if(model.contains("EST")){
 
-          //  Intent esti = new Intent(ModelActivity.this, EstimationActivity.class);
-          //  startActivity(esti);
+            Intent esti = new Intent(ModelActivity.this, EstimationActivity.class);
+            startActivity(esti);
         }
 
         else {

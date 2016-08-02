@@ -43,6 +43,14 @@
             android:screenOrientation="portrait">
 
         </activity>
+        <activity
+            android:name=".EstimationActivity"
+            android:label="@string/title_activity_classification"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:screenOrientation="portrait">
+
+        </activity>
+
     </application>
 
 </manifest>

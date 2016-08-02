@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\Scio\SDK_Android\myscioapplication\src\main\AndroidManifest.xml:2:1-48:12
+ADDED from E:\Scio\SDK_Android\myscioapplication\src\main\AndroidManifest.xml:2:1-56:12
 	package
 		ADDED from E:\Scio\SDK_Android\myscioapplication\src\main\AndroidManifest.xml:4:5-52
 		INJECTED from E:\Scio\SDK_Android\myscioapplication\src\main\AndroidManifest.xml
@@ -36,7 +36,7 @@ MERGED from [:SCiOSDK_Android:] E:\Scio\SDK_Android\myscioapplication\build\inte
 	android:name
 		ADDED from E:\Scio\SDK_Android\myscioapplication\src\main\AndroidManifest.xml:9:22-78
 application
-ADDED from E:\Scio\SDK_Android\myscioapplication\src\main\AndroidManifest.xml:11:5-46:19
+ADDED from E:\Scio\SDK_Android\myscioapplication\src\main\AndroidManifest.xml:11:5-54:19
 MERGED from [:SCiOSDK_Android:] E:\Scio\SDK_Android\myscioapplication\build\intermediates\exploded-aar\SCiOSDK_Android\AndroidManifest.xml:16:5-20:19
 MERGED from [com.android.support:appcompat-v7:21.0.3] E:\Scio\SDK_Android\myscioapplication\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\AndroidManifest.xml:16:5-19
 MERGED from [com.android.support:support-v4:21.0.3] E:\Scio\SDK_Android\myscioapplication\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\AndroidManifest.xml:16:5-19
@@ -103,6 +103,16 @@ ADDED from E:\Scio\SDK_Android\myscioapplication\src\main\AndroidManifest.xml:39
 		ADDED from E:\Scio\SDK_Android\myscioapplication\src\main\AndroidManifest.xml:42:13-69
 	android:name
 		ADDED from E:\Scio\SDK_Android\myscioapplication\src\main\AndroidManifest.xml:40:13-51
+activity#consumerphysics.com.myscioapplication.EstimationActivity
+ADDED from E:\Scio\SDK_Android\myscioapplication\src\main\AndroidManifest.xml:46:9-52:20
+	android:screenOrientation
+		ADDED from E:\Scio\SDK_Android\myscioapplication\src\main\AndroidManifest.xml:50:13-49
+	android:label
+		ADDED from E:\Scio\SDK_Android\myscioapplication\src\main\AndroidManifest.xml:48:13-66
+	android:theme
+		ADDED from E:\Scio\SDK_Android\myscioapplication\src\main\AndroidManifest.xml:49:13-69
+	android:name
+		ADDED from E:\Scio\SDK_Android\myscioapplication\src\main\AndroidManifest.xml:47:13-47
 uses-sdk
 INJECTED from E:\Scio\SDK_Android\myscioapplication\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [:SCiOSDK_Android:] E:\Scio\SDK_Android\myscioapplication\build\intermediates\exploded-aar\SCiOSDK_Android\AndroidManifest.xml:7:5-9:41

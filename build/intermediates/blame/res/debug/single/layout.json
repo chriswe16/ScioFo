@@ -116,6 +116,10 @@
         "source": "E:\\Scio\\SDK_Android\\myscioapplication\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout\\abc_activity_chooser_view.xml"
     },
     {
+        "merged": "E:\\Scio\\SDK_Android\\myscioapplication\\build\\intermediates\\res\\merged\\debug\\layout\\activity_estimation.xml",
+        "source": "E:\\Scio\\SDK_Android\\myscioapplication\\src\\main\\res\\layout\\activity_estimation.xml"
+    },
+    {
         "merged": "E:\\Scio\\SDK_Android\\myscioapplication\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
         "source": "E:\\Scio\\SDK_Android\\myscioapplication\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout\\abc_popup_menu_item_layout.xml"
     },

@@ -411,7 +411,7 @@ public final class R {
 		public static final int image = 0x7f0b0023;
 		public static final int listMode = 0x7f0b0009;
 		public static final int list_item = 0x7f0b0025;
-		public static final int lytLoading = 0x7f0b005a;
+		public static final int lytLoading = 0x7f0b005f;
 		public static final int middle = 0x7f0b0015;
 		public static final int never = 0x7f0b0019;
 		public static final int none = 0x7f0b000e;
@@ -419,7 +419,7 @@ public final class R {
 		public static final int progress_circular = 0x7f0b0005;
 		public static final int progress_horizontal = 0x7f0b0006;
 		public static final int radio = 0x7f0b002b;
-		public static final int scio_sdk_web = 0x7f0b0059;
+		public static final int scio_sdk_web = 0x7f0b005e;
 		public static final int search_badge = 0x7f0b0035;
 		public static final int search_bar = 0x7f0b0034;
 		public static final int search_button = 0x7f0b0036;
@@ -438,7 +438,7 @@ public final class R {
 		public static final int submit_area = 0x7f0b003c;
 		public static final int tabMode = 0x7f0b000b;
 		public static final int title = 0x7f0b0027;
-		public static final int txtError = 0x7f0b0061;
+		public static final int txtError = 0x7f0b0066;
 		public static final int up = 0x7f0b0008;
 		public static final int useLogo = 0x7f0b0012;
 		public static final int withText = 0x7f0b001a;
@@ -471,10 +471,10 @@ public final class R {
 		public static final int abc_search_dropdown_item_icons_2line = 0x7f030014;
 		public static final int abc_search_view = 0x7f030015;
 		public static final int abc_simple_dropdown_hint = 0x7f030016;
-		public static final int activity_scio_login = 0x7f03001b;
-		public static final int support_simple_spinner_dropdown_item = 0x7f030021;
-		public static final int view_alertimagebutton = 0x7f030022;
-		public static final int view_error = 0x7f030023;
+		public static final int activity_scio_login = 0x7f03001c;
+		public static final int support_simple_spinner_dropdown_item = 0x7f030022;
+		public static final int view_alertimagebutton = 0x7f030023;
+		public static final int view_error = 0x7f030024;
 	}
 	public static final class string {
 		public static final int abc_action_bar_home_description = 0x7f050000;

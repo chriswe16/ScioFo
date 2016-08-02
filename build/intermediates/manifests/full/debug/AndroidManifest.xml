@@ -46,6 +46,12 @@
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
         </activity>
+        <activity
+            android:name="consumerphysics.com.myscioapplication.EstimationActivity"
+            android:label="@string/title_activity_classification"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+        </activity>
 
         <service
             android:name="com.consumerphysics.android.scioconnection.services.SCiOBLeService"

@@ -129,7 +129,7 @@ public class ClassificationActivity extends ActionBarActivity {
     public void doModels(final View view) {
         if (scioCloud == null || !scioCloud.hasAccessToken()) {
             Log.d(TAG, "Can not select collection. User is not logged in");
-            Toast.makeText(getApplicationContext(), "Can not select collection. User is not logged in", Toast.LENGTH_SHORT).show();
+      //      Toast.makeText(getApplicationContext(), "Can not select collection. User is not logged in", Toast.LENGTH_SHORT).show();
 
             return;
         }
@@ -175,7 +175,7 @@ public class ClassificationActivity extends ActionBarActivity {
 
             @Override
             public void onTimeout() {
-                Log.e(TAG, "Timeout während des Kalibieren");
+                Log.e(TAG, "Time-Out während des Kalibieren");
                 runOnUiThread(new Runnable() {
                     @Override
                     public void run() {
