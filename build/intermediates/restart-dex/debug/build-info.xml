@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="armeabi-v7a,armeabi"
+    api-level="23"
+    density="xxhdpi"
+    format="7"
+    timestamp="1416981377238345"
+    token="1031253649409642797"
+    verifier="COMPATIBLE" >
+
+    <task
+        name="javac"
+        duration="277" />
+    <task
+        name="instant-run-dex"
+        duration="403" />
+    <task
+        name="instant-run-transform"
+        duration="33" />
+    <task
+        name="verifier"
+        duration="21" />
+
+    <artifact
+        location="E:\Scio\SDK_Android\myscioapplication\build\intermediates\reload-dex\debug\classes.dex"
+        type="RELOAD_DEX" />
+
+    <build timestamp="1413001357620961" >
+        <artifact
+            location="E:\Scio\SDK_Android\myscioapplication\build\outputs\apk\myscioapplication-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="1413832087138954"
+        verifier="METHOD_DELETED" >
+        <artifact
+            location="E:\Scio\SDK_Android\myscioapplication\build\intermediates\res\resources-debug.ap_"
+            type="RESOURCES" />
+    </build>
+    <build timestamp="1416768773887660" >
+        <artifact
+            location="E:\Scio\SDK_Android\myscioapplication\build\intermediates\transforms\dex\debug\folders\1000\5\slice_8\classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="1416981377238345"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="E:\Scio\SDK_Android\myscioapplication\build\intermediates\reload-dex\debug\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+
+</instant-run>

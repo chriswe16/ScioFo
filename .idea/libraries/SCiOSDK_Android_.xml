@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="SCiOSDK_Android-">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/build/intermediates/exploded-aar/SCiOSDK_Android/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/build/intermediates/exploded-aar/SCiOSDK_Android/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

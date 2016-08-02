@@ -1,0 +1,267 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/layoutHaupt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:text="SCIO Lebensmittelanalyse"
+            android:textColor="@color/primary_dark_material_dark"
+            android:textSize="22dp" />
+
+
+        <LinearLayout
+            android:id="@+id/detailsUser"
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/tv_username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/abc_text_size_large_material"
+                android:layout_weight="1"
+                android:hint="Mit Cloud verbinden..." />
+
+
+            <CheckBox
+                android:id="@+id/cb_user"
+                android:clickable="false"
+                android:buttonTint="@color/accent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/abc_text_size_large_material" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/detailsScio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="30dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/tv_scio_name"
+                android:clickable="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/abc_text_size_large_material"
+                android:layout_weight="1"
+                android:hint="Mit SCIO verbinden..." />
+
+
+            <CheckBox
+                android:id="@+id/cb_scio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/accent"
+                android:textSize="@dimen/abc_text_size_large_material"
+                android:clickable="false" />
+
+
+            <TextView
+                android:id="@+id/tv_scio_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tv_scio_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tv_model"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+
+
+        </LinearLayout>
+
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/layoutHaupt">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/button_models"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:onClick="doModels"
+                        android:paddingLeft="30dp"
+                        android:paddingRight="30dp"
+                        android:text="Model auswählen"
+                        android:background="@color/primary_dark"
+                        android:textColor="@color/primary_text_default_material_dark" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center"
+                    android:text="SCIO-Cloud"
+                    android:layout_marginBottom="15dp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/button_scan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="doScan"
+                        android:text="Analyze"
+                        android:visibility="gone" />
+
+                    <Button
+                        android:id="@+id/button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:onClick="doLogin"
+                        android:text="Login"
+                        android:background="@color/primary_dark"
+                        android:textColor="@color/primary_text_default_material_dark" />
+
+                    <Button
+                        android:id="@+id/buttonLogout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@+id/button"
+                        android:layout_toRightOf="@+id/button"
+                        android:onClick="doLogout"
+                        android:text="LOGOUT"
+                        android:background="@color/primary_dark"
+                        android:textColor="@color/primary_text_default_material_dark" />
+
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="SCIO-Scanner"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="15dp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:weightSum="1">
+
+                    <Button
+                        android:id="@+id/button_discover"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_weight="0.43"
+                        android:onClick="doDiscover"
+                        android:text="Suchen"
+                        android:background="@color/primary_dark"
+                        android:textColor="@color/primary_text_default_material_dark"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/button_calibrate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:onClick="doCalibrate"
+                        android:text="Calibrate"
+                        android:visibility="gone"
+                        android:background="@color/primary_dark"
+                        android:textColor="@color/primary_text_default_material_dark"
+                        />
+
+                    <Button
+                        android:id="@+id/button_connect"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="doConnect"
+                        android:text="Verbinden"
+                        android:layout_marginRight="20dp"
+                        android:background="@color/primary_dark"
+                        android:textColor="@color/primary_text_default_material_dark"
+                        />
+
+                    <Button
+                        android:id="@+id/button_disconnect"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="doDisconnect"
+                        android:text="Trennen"
+                        android:background="@color/primary_dark"
+                        android:textColor="@color/primary_text_default_material_dark"
+                        />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

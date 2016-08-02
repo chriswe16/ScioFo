@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\Scio\\SDK_Android\\myscioapplication\\build\\intermediates\\res\\merged\\debug\\menu\\menu_collection.xml",
+        "source": "E:\\Scio\\SDK_Android\\myscioapplication\\src\\main\\res\\menu\\menu_collection.xml"
+    },
+    {
+        "merged": "E:\\Scio\\SDK_Android\\myscioapplication\\build\\intermediates\\res\\merged\\debug\\menu\\menu_discover.xml",
+        "source": "E:\\Scio\\SDK_Android\\myscioapplication\\src\\main\\res\\menu\\menu_discover.xml"
+    },
+    {
+        "merged": "E:\\Scio\\SDK_Android\\myscioapplication\\build\\intermediates\\res\\merged\\debug\\menu\\menu_scan.xml",
+        "source": "E:\\Scio\\SDK_Android\\myscioapplication\\src\\main\\res\\menu\\menu_scan.xml"
+    },
+    {
+        "merged": "E:\\Scio\\SDK_Android\\myscioapplication\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
+        "source": "E:\\Scio\\SDK_Android\\myscioapplication\\src\\main\\res\\menu\\menu_main.xml"
+    }
+]

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SCiOSDK_Android-v1.0.2.4-20160519/SCiOSDK_Android-v1.0.2.4-20160519.iml" filepath="$PROJECT_DIR$/SCiOSDK_Android-v1.0.2.4-20160519/SCiOSDK_Android-v1.0.2.4-20160519.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myscioapplication.iml" filepath="$PROJECT_DIR$/myscioapplication.iml" />
+    </modules>
+  </component>
+</project>

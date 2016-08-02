@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SCIO Food</string>
+
+    <string name="title_activity_scan">ScanActivity</string>
+    <string name="title_activity_discover">DiscoverActivity</string>
+    <string name="title_activity_collection">CollectionActivity</string>
+    <string name="title_activity_model">ModelActivity</string>
+    <string name="title_activity_classification">ClassificationActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
