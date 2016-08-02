@@ -235,8 +235,8 @@ public class ClassificationActivity extends ActionBarActivity {
                 default:
                     value = "Unknown";
             }
-
-            attributeName.setText(model.getName());
+        // Without Model-Name
+        //    attributeName.setText(model.getName());
 
             if (model.getType().equals(ScioModel.Type.ESTIMATION)) {
                 attributeValue.setText(value + unit);
@@ -385,10 +385,6 @@ public class ClassificationActivity extends ActionBarActivity {
         lv.setAdapter(adp);
 
         adp.addAll(model);
-
-        Log.d(DEB, adp.toString() + " toString");
-        Log.d(DEB, adp.getItem(0) + " Count");
-        Log.d(DEB, adp.getItemId(0) + " ItemID");
 
 
         dlg.setPositiveButton("OK", null);

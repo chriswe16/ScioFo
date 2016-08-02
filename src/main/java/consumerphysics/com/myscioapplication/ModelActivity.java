@@ -100,7 +100,7 @@ public class ModelActivity extends Activity {
             @Override
             public void onSuccess(List<ScioModel> models) {
 
-                List<ScioModel> cheese = selectModell(models, "Hartkäse - EST");
+                List<ScioModel> cheese = selectModell(models, "Hartkäse");
 
                 adp.addAll(cheese);
             }
@@ -112,7 +112,7 @@ public class ModelActivity extends Activity {
             }
         });
     }
-///ddsfdffgf
+
     private void storeSelectedModel(final ScioModel model) {
         SharedPreferences pref = getSharedPreferences("MyPref", Context.MODE_PRIVATE);
         SharedPreferences.Editor edit = pref.edit();
@@ -124,7 +124,6 @@ public class ModelActivity extends Activity {
         edit.commit();
     }
 
-    //New Methodes
 
     private List<ScioModel> selectModell(List<ScioModel> models, String choose)
     {

@@ -4,50 +4,47 @@
     api-level="23"
     density="xxhdpi"
     format="7"
-    timestamp="1416981377238345"
-    token="1031253649409642797"
-    verifier="COMPATIBLE" >
+    timestamp="1471941124506106"
+    token="1031253649409642797" >
 
     <task
         name="javac"
-        duration="277" />
+        duration="0" />
     <task
         name="instant-run-dex"
-        duration="403" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="33" />
+        duration="0" />
     <task
         name="verifier"
-        duration="21" />
+        duration="0" />
 
     <artifact
-        location="E:\Scio\SDK_Android\myscioapplication\build\intermediates\reload-dex\debug\classes.dex"
-        type="RELOAD_DEX" />
+        location="E:\Scio\SDK_Android\myscioapplication\build\intermediates\res\resources-debug.ap_"
+        type="RESOURCES" />
 
-    <build timestamp="1413001357620961" >
+    <build timestamp="1471546120012118" >
         <artifact
             location="E:\Scio\SDK_Android\myscioapplication\build\outputs\apk\myscioapplication-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="1413832087138954"
-        verifier="METHOD_DELETED" >
+        timestamp="1471701967077418"
+        verifier="COMPATIBLE" >
         <artifact
-            location="E:\Scio\SDK_Android\myscioapplication\build\intermediates\res\resources-debug.ap_"
-            type="RESOURCES" />
+            location="E:\Scio\SDK_Android\myscioapplication\build\intermediates\builds\debug\1471701967077418\classes.dex"
+            type="RELOAD_DEX" />
     </build>
-    <build timestamp="1416768773887660" >
+    <build timestamp="1471880473560285" >
         <artifact
             location="E:\Scio\SDK_Android\myscioapplication\build\intermediates\transforms\dex\debug\folders\1000\5\slice_8\classes.dex"
             type="DEX" />
     </build>
-    <build
-        timestamp="1416981377238345"
-        verifier="COMPATIBLE" >
+    <build timestamp="1471941124506106" >
         <artifact
-            location="E:\Scio\SDK_Android\myscioapplication\build\intermediates\reload-dex\debug\classes.dex"
-            type="RELOAD_DEX" />
+            location="E:\Scio\SDK_Android\myscioapplication\build\intermediates\res\resources-debug.ap_"
+            type="RESOURCES" />
     </build>
 
 </instant-run>

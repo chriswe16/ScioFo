@@ -13,12 +13,15 @@
         android:text="Name"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:textColor="@color/black"
+        android:visibility="gone"
         android:textStyle="bold"/>
 
     <TextView
         android:id="@+id/attribute_value"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
         android:layout_toRightOf="@+id/attribute_name"
         android:text="-"
         android:textAppearance="?android:attr/textAppearanceMedium"
