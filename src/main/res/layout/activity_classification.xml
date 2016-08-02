@@ -74,7 +74,7 @@
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:layout_margin="10dp"
         android:elevation="60dp"
-        android:text="Kalbrieren" />
+        android:text="Kalibrieren" />
 
     <Button
         android:id="@+id/btn_milk_modells"

@@ -18,7 +18,7 @@
         android:layout_marginTop="40dp"
         android:background="@android:color/holo_green_dark"
         android:gravity="center"
-        android:text="Wie hoch ist der Fettanteil bei diesen Käse?"
+        android:text="Wie hoch ist der Fettanteil?"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textColor="@android:color/white" />
 
@@ -64,7 +64,7 @@
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:layout_margin="10dp"
         android:elevation="60dp"
-        android:text="Kalbrieren" />
+        android:text="Kalibrieren" />
 
     <Button
         android:id="@+id/btn_est_modells"

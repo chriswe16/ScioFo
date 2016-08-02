@@ -144,6 +144,7 @@ public class ModelActivity extends Activity {
 
             Intent clasi = new Intent(ModelActivity.this, ClassificationActivity.class);
             startActivity(clasi);
+            finish();
 
 
 
@@ -152,6 +153,7 @@ public class ModelActivity extends Activity {
 
             Intent esti = new Intent(ModelActivity.this, EstimationActivity.class);
             startActivity(esti);
+            finish();
         }
 
         else {

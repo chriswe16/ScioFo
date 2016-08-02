@@ -1,12 +1,3 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" >
+<items version="2" />
 
-    <item
-        jar="E:\Scio\SDK_Android\myscioapplication\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        revision="21.1.2"
-        sha1="152a061323ac2d1a5b14bc9b41905e7b3d515200">
-        <dex dex="E:\Scio\SDK_Android\myscioapplication\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_be0d12f169f7b5c1852656f0fe3b566cbf7ee9bd\classes.dex" />
-    </item>
-
-</items>

@@ -351,7 +351,7 @@ public class ClassificationActivity extends ActionBarActivity {
             @Override
             public void onSuccess(final ScioUser user) {
                 Log.d(TAG, "First name=" + user.getFirstName() + "  Last name=" + user.getLastName());
-                Toast.makeText(getApplicationContext(), "Welcome " + user.getFirstName() + " " + user.getLastName(), Toast.LENGTH_SHORT).show();
+              //  Toast.makeText(getApplicationContext(), "Welcome " + user.getFirstName() + " " + user.getLastName(), Toast.LENGTH_SHORT).show();
 
                 storeUsername(user.getUsername());
                 updateDisplay();

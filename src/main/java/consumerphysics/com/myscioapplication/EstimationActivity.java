@@ -32,6 +32,8 @@ import com.consumerphysics.android.sdk.sciosdk.ScioCloud;
 import com.consumerphysics.android.sdk.sciosdk.ScioDevice;
 import com.consumerphysics.android.sdk.sciosdk.ScioLoginActivity;
 
+import java.math.BigDecimal;
+import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -205,7 +207,7 @@ public class EstimationActivity extends ActionBarActivity {
 
             final ScioModel model = getItem(position);
 
-           final String value;
+            String value;
             String unit = null;
 
             /**
@@ -217,7 +219,15 @@ public class EstimationActivity extends ActionBarActivity {
                     value = ((ScioStringAttribute) (model.getAttributes().get(position))).getValue();
                     break;
                 case NUMERIC:
-                    value = String.valueOf(((ScioNumericAttribute) (model.getAttributes().get(position))).getValue());
+                    String val = String.valueOf(((ScioNumericAttribute) (model.getAttributes().get(position))).getValue());
+                    double f = Double.parseDouble(val);
+
+                    Log.d(DEB, f + " Double");
+
+                    value = String.format("%.2f", new BigDecimal(f));
+
+                    Log.d(DEB,value + " Value" );
+
                     unit = model.getAttributes().get(position).getUnits();
                     break;
                 case DATE_TIME:
@@ -230,7 +240,7 @@ public class EstimationActivity extends ActionBarActivity {
         //    attributeName.setText(model.getName());
 
             if (model.getType().equals(ScioModel.Type.ESTIMATION)) {
-                attributeValue.setText(value + unit);
+                attributeValue.setText(value + " " + unit);
             } else {
                 attributeValue.setText(value);
             }
@@ -342,7 +352,7 @@ public class EstimationActivity extends ActionBarActivity {
             @Override
             public void onSuccess(final ScioUser user) {
                 Log.d(TAG, "First name=" + user.getFirstName() + "  Last name=" + user.getLastName());
-                Toast.makeText(getApplicationContext(), "Welcome " + user.getFirstName() + " " + user.getLastName(), Toast.LENGTH_SHORT).show();
+       //         Toast.makeText(getApplicationContext(), "Welcome " + user.getFirstName() + " " + user.getLastName(), Toast.LENGTH_SHORT).show();
 
                 storeUsername(user.getUsername());
                 updateDisplay();
