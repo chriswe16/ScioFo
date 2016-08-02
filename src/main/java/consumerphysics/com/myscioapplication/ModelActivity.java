@@ -112,7 +112,7 @@ public class ModelActivity extends Activity {
             }
         });
     }
-
+///ddsfdf
     private void storeSelectedModel(final ScioModel model) {
         SharedPreferences pref = getSharedPreferences("MyPref", Context.MODE_PRIVATE);
         SharedPreferences.Editor edit = pref.edit();
