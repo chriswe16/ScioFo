@@ -26,10 +26,7 @@ public final class MainActivity extends Activity {
 
     private final static int LOGIN_ACTIVITY_RESULT = 1000;
 
-    // TODO: Put your redirect url here!
     private static final String REDIRECT_URL = "http://www.consumerphysics.com";
-
-    // TODO: Put your app key here!
     private static final String APPLICATION_KEY = "82ad7ad3-613d-41b1-8df0-515116d1dcd2";
 
     // Scio

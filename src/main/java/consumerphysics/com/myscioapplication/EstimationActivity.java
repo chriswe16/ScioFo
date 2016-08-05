@@ -221,11 +221,8 @@ public class EstimationActivity extends ActionBarActivity {
                 case NUMERIC:
                     String val = String.valueOf(((ScioNumericAttribute) (model.getAttributes().get(position))).getValue());
                     double f = Double.parseDouble(val);
-
                     Log.d(DEB, f + " Double");
-
                     value = String.format("%.2f", new BigDecimal(f));
-
                     Log.d(DEB,value + " Value" );
 
                     unit = model.getAttributes().get(position).getUnits();

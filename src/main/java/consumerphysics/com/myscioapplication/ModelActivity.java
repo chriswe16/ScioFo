@@ -99,9 +99,7 @@ public class ModelActivity extends Activity {
         cloud.getModels(new ScioCloudModelsCallback() {
             @Override
             public void onSuccess(List<ScioModel> models) {
-
                 List<ScioModel> cheese = selectModell(models, "Hartkäse");
-
                 adp.addAll(cheese);
             }
 
@@ -125,11 +123,10 @@ public class ModelActivity extends Activity {
     }
 
 
-    private List<ScioModel> selectModell(List<ScioModel> models, String choose)
-    {
+    private List<ScioModel> selectModell(List<ScioModel> models, String choose) {
 
-       for(Iterator<ScioModel> it=models.iterator(); it.hasNext();){
-            if( !it.next().getCollectionName().contains(choose)) {
+        for (Iterator<ScioModel> it = models.iterator(); it.hasNext(); ) {
+            if (!it.next().getCollectionName().contains(choose)) {
 
                 it.remove();
             }
@@ -138,25 +135,21 @@ public class ModelActivity extends Activity {
         return models;
     }
 
-    private void JumpToAnalyse(String model){
+    private void JumpToAnalyse(String model) {
 
-        if(model.contains("CLA")){
+        if (model.contains("CLA")) {
 
             Intent clasi = new Intent(ModelActivity.this, ClassificationActivity.class);
             startActivity(clasi);
             finish();
 
 
-
-        }
-        else if(model.contains("EST")){
+        } else if (model.contains("EST")) {
 
             Intent esti = new Intent(ModelActivity.this, EstimationActivity.class);
             startActivity(esti);
             finish();
-        }
-
-        else {
+        } else {
 
             Intent milk = new Intent(ModelActivity.this, MainActivity.class);
             startActivity(milk);
@@ -165,7 +158,6 @@ public class ModelActivity extends Activity {
         }
 
     }
-
 
 
 }
