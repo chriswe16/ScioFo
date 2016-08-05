@@ -24,7 +24,7 @@
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustPan" />
         <activity
-            android:name="consumerphysics.com.myscioapplication.MainActivity"
+            android:name="consumerphysics.com.sciofood.MainActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait" >
             <intent-filter>
@@ -34,15 +34,15 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="consumerphysics.com.myscioapplication.DiscoverActivity"
+            android:name="consumerphysics.com.sciofood.DiscoverActivity"
             android:label="@string/title_activity_discover"
             android:screenOrientation="portrait" />
         <activity
-            android:name="consumerphysics.com.myscioapplication.ModelActivity"
+            android:name="consumerphysics.com.sciofood.ModelActivity"
             android:label="@string/title_activity_model"
             android:screenOrientation="portrait" />
         <activity
-            android:name="consumerphysics.com.myscioapplication.ClassificationActivity"
+            android:name="consumerphysics.com.sciofood.ClassificationActivity"
             android:label="@string/title_activity_classification"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" >

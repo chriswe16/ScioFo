@@ -28,12 +28,12 @@
         "source": "E:\\Scio\\SDK_Android\\ScioFood\\src\\main\\res\\layout\\results_item.xml"
     },
     {
-        "merged": "E:\\Scio\\SDK_Android\\ScioFood\\build\\intermediates\\res\\merged\\debug\\layout\\view_alertimagebutton.xml",
-        "source": "E:\\Scio\\SDK_Android\\ScioFood\\build\\intermediates\\exploded-aar\\SCiOSDK_Android\\res\\layout\\view_alertimagebutton.xml"
-    },
-    {
         "merged": "E:\\Scio\\SDK_Android\\ScioFood\\build\\intermediates\\res\\merged\\debug\\layout\\activity_classification.xml",
         "source": "E:\\Scio\\SDK_Android\\ScioFood\\src\\main\\res\\layout\\activity_classification.xml"
+    },
+    {
+        "merged": "E:\\Scio\\SDK_Android\\ScioFood\\build\\intermediates\\res\\merged\\debug\\layout\\view_alertimagebutton.xml",
+        "source": "E:\\Scio\\SDK_Android\\ScioFood\\build\\intermediates\\exploded-aar\\SCiOSDK_Android\\res\\layout\\view_alertimagebutton.xml"
     },
     {
         "merged": "E:\\Scio\\SDK_Android\\myscioapplication\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",

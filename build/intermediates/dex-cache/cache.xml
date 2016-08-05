@@ -2,52 +2,10 @@
 <items version="2" >
 
     <item
-        jar="E:\Scio\SDK_Android\ScioFood\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        revision="21.1.2"
-        sha1="23f801272cd24d669444155a0fd4e3adbc114097">
-        <dex dex="E:\Scio\SDK_Android\ScioFood\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_6a9a3624bc89bbef68f6b38cbd48cf70d6e6fbaa\classes.dex" />
-    </item>
-    <item
-        jar="E:\Scio\SDK_Android\ScioFood\build\intermediates\exploded-aar\SCiOSDK_Android\jars\classes.jar"
-        jumboMode="true"
-        revision="21.1.2"
-        sha1="934fab26df83e017a855004a66b31885726db731">
-        <dex dex="E:\Scio\SDK_Android\ScioFood\build\intermediates\transforms\dex\debug\folders\1000\10\intermediates-exploded-aar-SCiOSDK_Android_625d36cd473aebd4638e52cf39e5893e7271d301\classes.dex" />
-    </item>
-    <item
-        jar="E:\Scio\SDK_Android\ScioFood\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\jars\classes.jar"
-        jumboMode="true"
-        revision="21.1.2"
-        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
-        <dex dex="E:\Scio\SDK_Android\ScioFood\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-21.0.3_bb91eb019e2061c110174c68b71b2af571106080\classes.dex" />
-    </item>
-    <item
-        jar="E:\Scio\SDK_Android\ScioFood\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\libs\internal_impl-21.0.3.jar"
-        jumboMode="true"
-        revision="21.1.2"
-        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
-        <dex dex="E:\Scio\SDK_Android\ScioFood\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-21.0.3_1ebfbd3f938c6d78c6e25d9ec3871b836d7b2469\classes.dex" />
-    </item>
-    <item
-        jar="E:\Scio\SDK_Android\ScioFood\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\classes.jar"
-        jumboMode="true"
-        revision="21.1.2"
-        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
-        <dex dex="E:\Scio\SDK_Android\ScioFood\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-21.0.3_317f5791630dce0249d75ff5ef3aca52e936788c\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\christian\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
-        jumboMode="true"
-        revision="21.1.2"
-        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
-        <dex dex="E:\Scio\SDK_Android\ScioFood\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-21.0.3_9ce03a1cb408ee5c4774c1853ed80b5d98a61049\classes.dex" />
-    </item>
-    <item
         jar="E:\Scio\SDK_Android\ScioFood\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         revision="21.1.2"
-        sha1="95ddbd881263b9ddfea9b5a38e72ba199e8c2d08">
+        sha1="cc9603a2407b51687637cb6f5f5136c41ba06b66">
         <dex dex="E:\Scio\SDK_Android\ScioFood\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_4d76c044f3150f8eea7b5e4cf4f7ea01fb249604\classes.dex" />
     </item>
 

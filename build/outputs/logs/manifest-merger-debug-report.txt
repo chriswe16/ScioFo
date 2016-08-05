@@ -59,14 +59,14 @@ ADDED from E:\Scio\SDK_Android\ScioFood\src\main\AndroidManifest.xml:17:9-20:55
 		ADDED from E:\Scio\SDK_Android\ScioFood\src\main\AndroidManifest.xml:20:13-52
 	android:name
 		ADDED from E:\Scio\SDK_Android\ScioFood\src\main\AndroidManifest.xml:18:13-85
-activity#consumerphysics.com.myscioapplication.MainActivity
+activity#consumerphysics.com.sciofood.MainActivity
 ADDED from E:\Scio\SDK_Android\ScioFood\src\main\AndroidManifest.xml:21:9-30:20
 	android:screenOrientation
 		ADDED from E:\Scio\SDK_Android\ScioFood\src\main\AndroidManifest.xml:24:13-49
 	android:label
 		ADDED from E:\Scio\SDK_Android\ScioFood\src\main\AndroidManifest.xml:23:13-45
 	android:name
-		ADDED from E:\Scio\SDK_Android\ScioFood\src\main\AndroidManifest.xml:22:13-41
+		ADDED from E:\Scio\SDK_Android\ScioFood\src\main\AndroidManifest.xml:22:13-69
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
 ADDED from E:\Scio\SDK_Android\ScioFood\src\main\AndroidManifest.xml:25:13-29:29
 action#android.intent.action.MAIN
@@ -77,23 +77,23 @@ category#android.intent.category.LAUNCHER
 ADDED from E:\Scio\SDK_Android\ScioFood\src\main\AndroidManifest.xml:28:17-77
 	android:name
 		ADDED from E:\Scio\SDK_Android\ScioFood\src\main\AndroidManifest.xml:28:27-74
-activity#consumerphysics.com.myscioapplication.DiscoverActivity
+activity#consumerphysics.com.sciofood.DiscoverActivity
 ADDED from E:\Scio\SDK_Android\ScioFood\src\main\AndroidManifest.xml:31:9-34:51
 	android:screenOrientation
 		ADDED from E:\Scio\SDK_Android\ScioFood\src\main\AndroidManifest.xml:34:13-49
 	android:label
 		ADDED from E:\Scio\SDK_Android\ScioFood\src\main\AndroidManifest.xml:33:13-60
 	android:name
-		ADDED from E:\Scio\SDK_Android\ScioFood\src\main\AndroidManifest.xml:32:13-45
-activity#consumerphysics.com.myscioapplication.ModelActivity
+		ADDED from E:\Scio\SDK_Android\ScioFood\src\main\AndroidManifest.xml:32:13-73
+activity#consumerphysics.com.sciofood.ModelActivity
 ADDED from E:\Scio\SDK_Android\ScioFood\src\main\AndroidManifest.xml:35:9-38:51
 	android:screenOrientation
 		ADDED from E:\Scio\SDK_Android\ScioFood\src\main\AndroidManifest.xml:38:13-49
 	android:label
 		ADDED from E:\Scio\SDK_Android\ScioFood\src\main\AndroidManifest.xml:37:13-57
 	android:name
-		ADDED from E:\Scio\SDK_Android\ScioFood\src\main\AndroidManifest.xml:36:13-42
-activity#consumerphysics.com.myscioapplication.ClassificationActivity
+		ADDED from E:\Scio\SDK_Android\ScioFood\src\main\AndroidManifest.xml:36:13-70
+activity#consumerphysics.com.sciofood.ClassificationActivity
 ADDED from E:\Scio\SDK_Android\ScioFood\src\main\AndroidManifest.xml:39:9-45:20
 	android:screenOrientation
 		ADDED from E:\Scio\SDK_Android\ScioFood\src\main\AndroidManifest.xml:43:13-49
@@ -102,7 +102,7 @@ ADDED from E:\Scio\SDK_Android\ScioFood\src\main\AndroidManifest.xml:39:9-45:20
 	android:theme
 		ADDED from E:\Scio\SDK_Android\ScioFood\src\main\AndroidManifest.xml:42:13-69
 	android:name
-		ADDED from E:\Scio\SDK_Android\ScioFood\src\main\AndroidManifest.xml:40:13-51
+		ADDED from E:\Scio\SDK_Android\ScioFood\src\main\AndroidManifest.xml:40:13-79
 activity#consumerphysics.com.myscioapplication.EstimationActivityis
 ADDED from E:\Scio\SDK_Android\ScioFood\src\main\AndroidManifest.xml:46:9-52:20
 	android:screenOrientation
