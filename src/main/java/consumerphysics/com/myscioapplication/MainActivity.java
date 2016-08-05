@@ -153,17 +153,17 @@ public final class MainActivity extends Activity {
             Toast.makeText(getApplicationContext(), "User muss sich an SCIO Cloud einloggen", Toast.LENGTH_SHORT).show();
        */
 
-        if (!cbUser.isChecked() && !cbScio.isChecked()) {
+   /*     if (!cbUser.isChecked() && !cbScio.isChecked()) {
             Toast.makeText(getApplicationContext(), "User muss sich im SCIO-Scanner verbinden und sich mit SCIO-Cloud verbinden", Toast.LENGTH_SHORT).show();
         } else if (!cbScio.isChecked()) {
             Toast.makeText(getApplicationContext(), "User muss sich im SCIO-Scanner verbinden", Toast.LENGTH_SHORT).show();
         } else if (!cbUser.isChecked()) {
             Toast.makeText(getApplicationContext(), "User muss sich im SCIO-Cloud verbinden", Toast.LENGTH_SHORT).show();
         } else {
-
+*/
             final Intent intent = new Intent(this, ModelActivity.class);
             startActivity(intent);
-        }
+  //      }
     }
 
     public void doConnect(final View view) {
