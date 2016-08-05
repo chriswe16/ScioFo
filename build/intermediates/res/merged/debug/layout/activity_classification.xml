@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:clipToPadding="false"
-    tools:context="consumerphysics.com.sciofood.ClassificationActivity">
+    tools:context="consumerphysics.com.activities.ClassificationActivity">
 
 
     <TextView
