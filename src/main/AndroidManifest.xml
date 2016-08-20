@@ -44,7 +44,7 @@
 
         </activity>
         <activity
-            android:name=".EstimationActivityis"
+            android:name="consumerphysics.com.activities.Estimation"
             android:label="@string/title_activity_classification"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             android:screenOrientation="portrait">

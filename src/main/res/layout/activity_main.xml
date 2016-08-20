@@ -132,7 +132,7 @@
                         android:onClick="doModels"
                         android:paddingLeft="30dp"
                         android:paddingRight="30dp"
-                        android:text="Model auswählen"
+                        android:text="Modell auswählen"
                         android:background="@color/primary_dark"
                         android:textColor="@color/primary_text_default_material_dark" />
 

@@ -24,7 +24,7 @@
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustPan" />
         <activity
-            android:name="consumerphysics.com.activities.MainActivity"
+            android:name="consumerphysics.com.activities.MainScreen"
             android:label="@string/app_name"
             android:screenOrientation="portrait" >
             <intent-filter>
@@ -34,21 +34,21 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="consumerphysics.com.activities.DiscoverActivity"
+            android:name="consumerphysics.com.activities.Discover"
             android:label="@string/title_activity_discover"
             android:screenOrientation="portrait" />
         <activity
-            android:name="consumerphysics.com.activities.ModelActivity"
+            android:name="consumerphysics.com.activities.ModelSearch"
             android:label="@string/title_activity_model"
             android:screenOrientation="portrait" />
         <activity
-            android:name="consumerphysics.com.activities.ClassificationActivity"
+            android:name="consumerphysics.com.activities.Classification"
             android:label="@string/title_activity_classification"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
         </activity>
         <activity
-            android:name="consumerphysics.com.test.EstimationActivityis"
+            android:name="consumerphysics.com.activities.Estimation"
             android:label="@string/title_activity_classification"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" >

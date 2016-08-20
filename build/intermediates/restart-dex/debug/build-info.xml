@@ -4,30 +4,35 @@
     api-level="23"
     density="xxhdpi"
     format="7"
-    timestamp="1771954793915212"
-    token="1031253649409642797" >
+    timestamp="681855228275389"
+    token="8014821156527318031" >
 
     <task
         name="javac"
-        duration="1887" />
+        duration="376" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="981" />
+        duration="17" />
     <task
         name="verifier"
-        duration="201" />
+        duration="2" />
 
     <artifact
-        location="E:\Scio\SDK_Android\ScioFood\build\outputs\apk\ScioFood-debug.apk"
-        type="MAIN" />
+        location="E:\Scio\SDK_Android\ScioFood\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
+        type="DEX" />
 
-    <build timestamp="1771954793915212" >
+    <build timestamp="680690185372043" >
         <artifact
             location="E:\Scio\SDK_Android\ScioFood\build\outputs\apk\ScioFood-debug.apk"
             type="MAIN" />
+    </build>
+    <build timestamp="681855228275389" >
+        <artifact
+            location="E:\Scio\SDK_Android\ScioFood\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
+            type="DEX" />
     </build>
 
 </instant-run>

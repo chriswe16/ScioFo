@@ -132,7 +132,7 @@ public class Estimation extends ActionBarActivity {
     public void doModels(final View view) {
         if (scioCloud == null || !scioCloud.hasAccessToken()) {
             Log.d(TAG, "Can not select collection. User is not logged in");
-      //      Toast.makeText(getApplicationContext(), "Can not select collection. User is not logged in", Toast.LENGTH_SHORT).show();
+            //      Toast.makeText(getApplicationContext(), "Can not select collection. User is not logged in", Toast.LENGTH_SHORT).show();
 
             return;
         }
@@ -221,12 +221,14 @@ public class Estimation extends ActionBarActivity {
                     break;
                 case NUMERIC:
                     String val = String.valueOf(((ScioNumericAttribute) (model.getAttributes().get(position))).getValue());
-                    double f = Double.parseDouble(val);
-                    Log.d(DEB, f + " Double");
-                    value = String.format("%.2f", new BigDecimal(f));
-                    Log.d(DEB,value + " Value" );
+
+                    String[] valar;
+                    valar = val.split("\\.");
+                    value = valar[0];
+
 
                     unit = model.getAttributes().get(position).getUnits();
+
                     break;
                 case DATE_TIME:
                     value = ((ScioDatetimeAttribute) (model.getAttributes().get(position))).getValue().toString();
@@ -234,8 +236,8 @@ public class Estimation extends ActionBarActivity {
                 default:
                     value = "Unknown";
             }
-        // Without Model-Name
-        //    attributeName.setText(model.getName());
+            // Without Model-Name
+            //    attributeName.setText(model.getName());
 
             if (model.getType().equals(ScioModel.Type.ESTIMATION)) {
                 attributeValue.setText(value + " " + unit);
@@ -350,7 +352,7 @@ public class Estimation extends ActionBarActivity {
             @Override
             public void onSuccess(final ScioUser user) {
                 Log.d(TAG, "First name=" + user.getFirstName() + "  Last name=" + user.getLastName());
-       //         Toast.makeText(getApplicationContext(), "Welcome " + user.getFirstName() + " " + user.getLastName(), Toast.LENGTH_SHORT).show();
+                //         Toast.makeText(getApplicationContext(), "Welcome " + user.getFirstName() + " " + user.getLastName(), Toast.LENGTH_SHORT).show();
 
                 storeUsername(user.getUsername());
                 updateDisplay();
